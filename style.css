@@ -1,0 +1,25 @@
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-image: url('/images/mickey.jpg');
+    transition-timing-function: linear;
+    float: left;
+  }
+
+  .div2 {
+    width: 100px;
+    height: 100px;
+    background-image: url('/images/mickey.jpg');
+    transition: width 2s;
+    transition-timing-function: linear;
+    float: left;
+  }
+
+  .div1:hover {
+    width: 500px;
+    height: 500px;
+  }
+
+  .div2:hover {
+    float: right;
+  }
